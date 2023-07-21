@@ -1,0 +1,53 @@
+body{
+  /* background-image: linear-gradient(cadetblue pink white); */
+  /* background-color: cadetblue; */
+  background-image: linear-gradient(180deg, cadetblue, pink, white);
+  background-repeat: no-repeat;
+}
+.hading{
+  text-align: center;
+}
+.allform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+input{
+  border: 2px solid black;
+  border-radius: 49px;
+  width: 230px;
+  padding: 21px;
+  background-color: aquamarine;
+}
+label{
+  font-size: 25px;
+}
+button{
+  padding: 20px;
+    border-radius: 40px;
+    width: 183px;  
+}
+.allop{
+  display: flex;
+  border: 2px solid black;
+  width: 75%;
+  height: 200%;
+  background-color: blue;
+  margin-top: 150px;
+  margin-left: 200px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+span{
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 31px;
+  width: 300px;
+  height: 32px;
+  margin-top: 20px;
+  padding: 20px;
+  justify-content: space-around; 
+  margin-left: 10px;
+}
